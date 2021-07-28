@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Brandon's Cooking Website</title>
+    <link rel="stylesheet" href="../Cooking With Brandon/style1.css" type="text/css">
+    <script type="text/javascript" src="../Cooking With Brandon/calculator.js"></script>
+    <script src="https://kit.fontawesome.com/f2036ddcef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1><a href="https://www.instagram.com/brandon.eats/" target="_blank">@brandon.eats</a> - Cooking Blog</h1>
+        </div>
+    </header>
+    
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="../Cooking With Brandon/index.html" id="home">Home</a></li>
+                <li><a href="#" id="dishes">Dishes</a></li>
+                <li><a href="../Cooking With Brandon/resources.html" id="resources">Resources</a></li>
+                <li class="social" id="twitter"><a href="https://www.instagram.com/brandon.eats/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li class="social" id="facebook"><a href="https://www.instagram.com/brandon.eats/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li class="social" id="instagram"><a href="https://www.instagram.com/brandon.eats/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="showcase1">
+        <div class="container" id="title1">
+            <h1>Cooking Converter</h1>
+        </div>
+        <div class="container1" id="calculator">
+            <div class="block">
+                <label class="tbsp">Tablespoon:</label>
+                <input type="number" id="inputtbsp" placeholder="Tbsp" oninput="volumeConverter(this.value)" onchange="volumeConverter(this.value)">
+            </div>
+            <p>Millilitres (mL): <span id="outputMilliliters"></span></p>
+            <div class="block">
+                <label class="tsp">Teaspoon:</label>
+                <input type="number" id="inputtsp" placeholder="Tsp" oninput="volumeConverter1(this.value)" onchange="volumeConverter1(this.value)">
+            </div>
+            <p>Millilitres (mL): <span id="outputMilliliters1"></span></p>
+            <div class="block">    
+                <label class="flounce">Fluid Ounce:</label>
+                <input type="number" id="inputfluidounce" placeholder="fl.oz" oninput="volumeConverter3(this.value)" onchange="volumeConverter3(this.value)">
+            </div>
+            <p>Millilitres (mL): <span id="outputMilliliters3"></span></p>
+            <div class="block">
+                <label class="litre">Litre(s):</label>
+                <input type="number" id="inputlitres" placeholder="L" oninput="volumeConverter2(this.value)" onchange="volumeConverter2(this.value)">
+            </div>
+            <p>Millilitres (mL): <span id="outputMilliliters2"></span></p>
+        </div>
+    </section>
+    <footer id="main-footer1">
+        <p>Copyright &copy; 2021 Brandon Butler</p>
+    </footer>
+</body>
+</html>
