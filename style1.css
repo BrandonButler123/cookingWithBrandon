@@ -135,7 +135,7 @@ a:hover{
 /* STYLING FOR RESOURCES PAGE STARTING BELOW THIS LINE */
 
 #showcase1{
-    background-image: url ('background.jpg');
+    background-image: url(../images/background.jpg);
     background-size: 100%;
     min-height: 1000px;
     position: static;
