@@ -53,7 +53,7 @@ body{
 }
 
 #showcase{
-    background-image: url ('showcase3.jpg');
+    background-image: url ('background.jpg');
     background-size: 100%;
     background-position: 50% 1%;
     min-height: 200px;
@@ -135,7 +135,7 @@ a:hover{
 /* STYLING FOR RESOURCES PAGE STARTING BELOW THIS LINE */
 
 #showcase1{
-    background-image: url('showcase3.jpg');
+    background-image: url('background.jpg');
     background-size: 100%;
     min-height: 1000px;
     position: static;
