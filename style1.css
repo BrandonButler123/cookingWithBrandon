@@ -53,7 +53,7 @@ body{
 }
 
 #showcase{
-    background-image: url ('showcase3.jpg');
+    background-image: url(../Cooking\ With\ Brandon/);
     background-size: 100%;
     background-position: 50% 1%;
     min-height: 200px;
